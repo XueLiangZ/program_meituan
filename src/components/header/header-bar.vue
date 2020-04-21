@@ -7,22 +7,22 @@
   </div>
 </template>
 <script>
-import MGeo from './header-bar-geo.vue'
-import MNav from './header-bar-nav.vue'
+import MGeo from './header-bar-geo.vue';
+import MNav from './header-bar-nav.vue';
 export default {
   components: {
     MGeo,
     MNav
   }
-}
+};
 </script>
 
 <style lang="less">
 .header-bar {
-  overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  outline: 1px solid;
+  position: relative;
+  z-index: 999;
   .header-bar-con {
     width: 1190px;
     height: 40px;

@@ -47,3 +47,8 @@ li{
 input,img{  
     border: none;  
 }
+/* .clearfix::after{
+   display: block;
+   content:'';
+   clear: both;
+} */
