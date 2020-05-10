@@ -36,8 +36,28 @@ var api = {
       method: 'GET',
       url: '/indexMenu_Data.json'
     });
-  }
+  },
 
+  /**
+   * 获取民宿推荐 数据列表
+   */
+  getMinsuBarList() {
+    return axios({
+      get: 'GET',
+      url:"./minsuCard_Data.json"
+    })
+  },
+
+  /**
+   * 获取导航卡片数据区;
+   * 
+   */
+  getNavCardList() { 
+    return axios({
+      url: "./navigation_Data.json",
+      method:'GET'
+    })
+  }
   // // 首页下方（有格调内容区数据获取
   // getByKeyWordsSearch (params) {
   //   return axios.get('/api/meituan/index/resultsByKeywords.json', { params })

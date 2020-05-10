@@ -78,9 +78,9 @@ export default {
   methods: {
     async getMenuList() {
       const { data: res } = await this.$api.getMenuList();
-      console.dir(res);
+      // console.dir(res);
       this.menuList = res.data;
-      console.dir(this.menuList);
+      // console.dir(this.menuList);
     },
     enterHandel_1(msg) {
       this.isEnter = true;

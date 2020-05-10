@@ -77,22 +77,29 @@
       </el-col>
     </el-row>
 
-    <!-- 有格调...  区域 -->
+    <!-- 民宿推荐  卡片区域...  区域 -->
     <el-row>
-      <el-col :span="24">
+      <el-col>
         <!-- <my-card :tab="tab_type1"/> -->
+        <my-card-list />
+        
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col>
+        <nav-card />
       </el-col>
     </el-row>
   </div>
 </template>
 <script>
 import myMenu from "../components/pageIndex/myMenu.vue";
-// import mySlider from "@/components/index/slider.vue";
-// import myCard from "../components/index/mycard";
+
 
 export default {
   data() {
     return {
+      // 轮播图数据
       lunbo_Data: [
         {
           img: require("../assets/img/1.jpg"),
@@ -142,34 +149,13 @@ export default {
             },
           ],
         },
-        // contain: [
-        //   {
-        //     img: "//p1.meituan.net/joymerchant/8265296750747296394-32419343-1516971053288.jpg@240w_180h_1e_1c_1l|watermark=1&&r=2&p=9&x=2&y=2&relative=1&o=20|368w_208h_1e_1c",
-        //     link: "/",
-        //     title: "水之心",
-        //     title_sub: ["水之星"],
-        //     price: 77
-        //   },
-        //   {
-        //     img: "//p0.meituan.net/tdchotel/66e2c9aac87c304124dc61d51e16b157326699.jpg@368w_208h_1e_1c",
-        //     link: "/",
-        //     title: "水之心",
-        //     title_sub: ["水之星"],
-        //     price: 77
-        //   },
-        //   {
-        //     img: "//p1.meituan.net/dnaimgdark/ad5f0f0920cbdaaa25f842d2383a739f12146020.jpg@368w_208h_1e_1c",
-        //     link: "/",
-        //     title: "水之心",
-        //     title_sub: ["水之星"],
-        //     price: 77
-        //   }
-        // ]
       },
     };
   },
   components: {
     myMenu,
+    myCardList:()=>import('../components/pageIndex/myCardList.vue'),
+    navCard:()=>import("../components/pageIndex/navigationCard.vue"),
     // mySlider,
     // myCard
   },

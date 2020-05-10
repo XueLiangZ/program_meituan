@@ -1,0 +1,665 @@
+{
+  "//": "民宿推荐 卡片区域 数据",
+
+  "status": "success",
+
+  "msg": "成功",
+  "data": [
+    {
+      "title": "天津",
+      "carList": [
+        {
+          "img": "1-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 118
+          }
+        },
+        {
+          "img": "1-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月.美宿】法式轻奢风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "北欧**大床房",
+            "p1": ["1", "2", "南市"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "『海河』【祎博豪华&私人影院】",
+            "p1": ["1", "4", "挂甲市"],
+            "price": 158
+          }
+        }
+      ]
+    },
+
+    {
+      "title": "济南",
+      "carList": [
+        {
+          "img": "2-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "清新ins家庭房",
+            "p1": ["1", "3", "王舍人/新东站"],
+            "price": 118
+          }
+        },
+        {
+          "img": "2-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【有暖气】蓝色天空近火车站大明湖趵突泉电梯大两居",
+            "p1": ["2", "4", "大明湖西南门"],
+            "price": 130
+          }
+        },
+        {
+          "img": "2-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "星月 巨幕影音房/豪华视听享受/聚隆广场/印象城/洪家楼/洪楼/山东大学/大润发/银座超市",
+            "p1": ["1", "2", "洪家楼"],
+            "price": 138
+          }
+        },
+        {
+          "img": "2-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【扬帆起航】Sweety馨&洪楼教堂&山大&大明湖&2室2厅花园小区电梯房",
+            "p1": ["2", "4", "洪家楼"],
+            "price": 268
+          }
+        },
+        {
+          "img": "2-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【田田的房】《一生所爱》吊床百寸投影/大明湖/宽厚里/芙蓉街/趵突泉浪漫公寓",
+            "p1": ["1", "2", "火车站"],
+            "price": 228
+          }
+        },
+        {
+          "img": "2-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "豪华双床套房（可住4人）",
+            "p1": ["1", "4", "全福立交桥"],
+            "price": 118
+          }
+        }
+      ]
+    },
+    {
+      "title": "泰安",
+      "carList": [
+        {
+          "img": "1-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 118
+          }
+        },
+        {
+          "img": "1-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月.美宿】法式轻奢风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "北欧**大床房",
+            "p1": ["1", "2", "南市"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "『海河』【祎博豪华&私人影院】",
+            "p1": ["1", "4", "挂甲市"],
+            "price": 158
+          }
+        }
+      ]
+    },
+    {
+      "title": "大连",
+      "carList": [
+        {
+          "img": "2-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "清新ins家庭房",
+            "p1": ["1", "3", "王舍人/新东站"],
+            "price": 118
+          }
+        },
+        {
+          "img": "2-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【有暖气】蓝色天空近火车站大明湖趵突泉电梯大两居",
+            "p1": ["2", "4", "大明湖西南门"],
+            "price": 130
+          }
+        },
+        {
+          "img": "2-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "星月 巨幕影音房/豪华视听享受/聚隆广场/印象城/洪家楼/洪楼/山东大学/大润发/银座超市",
+            "p1": ["1", "2", "洪家楼"],
+            "price": 138
+          }
+        },
+        {
+          "img": "2-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【扬帆起航】Sweety馨&洪楼教堂&山大&大明湖&2室2厅花园小区电梯房",
+            "p1": ["2", "4", "洪家楼"],
+            "price": 268
+          }
+        },
+        {
+          "img": "2-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【田田的房】《一生所爱》吊床百寸投影/大明湖/宽厚里/芙蓉街/趵突泉浪漫公寓",
+            "p1": ["1", "2", "火车站"],
+            "price": 228
+          }
+        },
+        {
+          "img": "2-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "豪华双床套房（可住4人）",
+            "p1": ["1", "4", "全福立交桥"],
+            "price": 118
+          }
+        }
+      ]
+    },
+    {
+      "title": "太原",
+      "carList": [
+        {
+          "img": "1-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 118
+          }
+        },
+        {
+          "img": "1-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月.美宿】法式轻奢风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "北欧**大床房",
+            "p1": ["1", "2", "南市"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "『海河』【祎博豪华&私人影院】",
+            "p1": ["1", "4", "挂甲市"],
+            "price": 158
+          }
+        }
+      ]
+    },
+
+    {
+      "title": "杭州",
+      "carList": [
+        {
+          "img": "2-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "清新ins家庭房",
+            "p1": ["1", "3", "王舍人/新东站"],
+            "price": 118
+          }
+        },
+        {
+          "img": "2-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【有暖气】蓝色天空近火车站大明湖趵突泉电梯大两居",
+            "p1": ["2", "4", "大明湖西南门"],
+            "price": 130
+          }
+        },
+        {
+          "img": "2-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "星月 巨幕影音房/豪华视听享受/聚隆广场/印象城/洪家楼/洪楼/山东大学/大润发/银座超市",
+            "p1": ["1", "2", "洪家楼"],
+            "price": 138
+          }
+        },
+        {
+          "img": "2-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【扬帆起航】Sweety馨&洪楼教堂&山大&大明湖&2室2厅花园小区电梯房",
+            "p1": ["2", "4", "洪家楼"],
+            "price": 268
+          }
+        },
+        {
+          "img": "2-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【田田的房】《一生所爱》吊床百寸投影/大明湖/宽厚里/芙蓉街/趵突泉浪漫公寓",
+            "p1": ["1", "2", "火车站"],
+            "price": 228
+          }
+        },
+        {
+          "img": "2-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "豪华双床套房（可住4人）",
+            "p1": ["1", "4", "全福立交桥"],
+            "price": 118
+          }
+        }
+      ]
+    },
+    {
+      "title": "秦皇岛",
+      "carList": [
+        {
+          "img": "1-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 118
+          }
+        },
+        {
+          "img": "1-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月.美宿】法式轻奢风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "北欧**大床房",
+            "p1": ["1", "2", "南市"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "『海河』【祎博豪华&私人影院】",
+            "p1": ["1", "4", "挂甲市"],
+            "price": 158
+          }
+        }
+      ]
+    },
+    {
+      "title": "呼和浩特",
+      "carList": [
+        {
+          "img": "2-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "清新ins家庭房",
+            "p1": ["1", "3", "王舍人/新东站"],
+            "price": 118
+          }
+        },
+        {
+          "img": "2-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【有暖气】蓝色天空近火车站大明湖趵突泉电梯大两居",
+            "p1": ["2", "4", "大明湖西南门"],
+            "price": 130
+          }
+        },
+        {
+          "img": "2-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "星月 巨幕影音房/豪华视听享受/聚隆广场/印象城/洪家楼/洪楼/山东大学/大润发/银座超市",
+            "p1": ["1", "2", "洪家楼"],
+            "price": 138
+          }
+        },
+        {
+          "img": "2-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【扬帆起航】Sweety馨&洪楼教堂&山大&大明湖&2室2厅花园小区电梯房",
+            "p1": ["2", "4", "洪家楼"],
+            "price": 268
+          }
+        },
+        {
+          "img": "2-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【田田的房】《一生所爱》吊床百寸投影/大明湖/宽厚里/芙蓉街/趵突泉浪漫公寓",
+            "p1": ["1", "2", "火车站"],
+            "price": 228
+          }
+        },
+        {
+          "img": "2-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "豪华双床套房（可住4人）",
+            "p1": ["1", "4", "全福立交桥"],
+            "price": 118
+          }
+        }
+      ]
+    },
+    {
+      "title": "潍坊",
+      "carList": [
+        {
+          "img": "1-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】NO.8/东南亚工业风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 118
+          }
+        },
+        {
+          "img": "1-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月美宿】/日式和风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月●美宿】法式•轻奢/古楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【九月.美宿】法式轻奢风/鼓楼/古文化街/观天津之眼全景/100寸投影",
+            "p1": ["1", "2", "老城厢/鼓楼"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "北欧**大床房",
+            "p1": ["1", "2", "南市"],
+            "price": 98
+          }
+        },
+        {
+          "img": "1-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "『海河』【祎博豪华&私人影院】",
+            "p1": ["1", "4", "挂甲市"],
+            "price": 158
+          }
+        }
+      ]
+    },
+    {
+      "title": "唐山",
+      "carList": [
+        {
+          "img": "2-1.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "清新ins家庭房",
+            "p1": ["1", "3", "王舍人/新东站"],
+            "price": 118
+          }
+        },
+        {
+          "img": "2-2.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【有暖气】蓝色天空近火车站大明湖趵突泉电梯大两居",
+            "p1": ["2", "4", "大明湖西南门"],
+            "price": 130
+          }
+        },
+        {
+          "img": "2-3.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "星月 巨幕影音房/豪华视听享受/聚隆广场/印象城/洪家楼/洪楼/山东大学/大润发/银座超市",
+            "p1": ["1", "2", "洪家楼"],
+            "price": 138
+          }
+        },
+        {
+          "img": "2-4.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【扬帆起航】Sweety馨&洪楼教堂&山大&大明湖&2室2厅花园小区电梯房",
+            "p1": ["2", "4", "洪家楼"],
+            "price": 268
+          }
+        },
+        {
+          "img": "2-5.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "【田田的房】《一生所爱》吊床百寸投影/大明湖/宽厚里/芙蓉街/趵突泉浪漫公寓",
+            "p1": ["1", "2", "火车站"],
+            "price": 228
+          }
+        },
+        {
+          "img": "2-6.jpg",
+          "link": "/",
+          "user_head": "user_head.png",
+          "desc": {
+            "title": "豪华双床套房（可住4人）",
+            "p1": ["1", "4", "全福立交桥"],
+            "price": 118
+          }
+        }
+      ]
+    }
+
+
+
+  
+  ]
+}

@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from "vue";
 import {
   Header,
   Main,
@@ -11,7 +11,13 @@ import {
   Button,
   Carousel,
   CarouselItem,
-} from 'element-ui';
+  Card,
+  Breadcrumb,
+  BreadcrumbItem,
+  Rate,
+  Select,
+  Option
+} from "element-ui";
 
 Vue.use(Header);
 Vue.use(Main);
@@ -25,5 +31,10 @@ Vue.use(Input);
 Vue.use(Button);
 Vue.use(Carousel);
 Vue.use(CarouselItem);
-
+Vue.use(Card);
+Vue.use(Breadcrumb);
+Vue.use(BreadcrumbItem);
+Vue.use(Rate);
+Vue.use(Select);
+Vue.use(Option);
 // export default Vue

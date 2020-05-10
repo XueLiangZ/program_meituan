@@ -12,9 +12,9 @@ export default new Router({
       component: Layout,
       children: [
         {
-          path: 'search/:id',
-          name: 'goods_search',
-          component: () => import('../page/goods-list.vue')
+          path: '/search/:id',
+          name: 'search',
+          component: () => import('../page/goodsList.vue')
         },
         {
           path: '/index',
@@ -22,9 +22,16 @@ export default new Router({
           component: () => import('../page/index.vue')
         },
         {
+          path: '/changeCity',
+          name: 'changeCity',
+          component: () => import('../page/changeCity.vue')
+        },
+        {
           path: '/',
           redirect: '/index'
-        }
+        },
+      
+       
       ]
     },
     {
@@ -32,9 +39,9 @@ export default new Router({
       name: "login",
       component: () => import('../page/login.vue')
     },
-    // {
-    //   path: "*",
-    //   redirect: "/",
-    // },
+    //  {
+    //       path: "*",
+    //       redirect: "/",
+    //     },
   ]
 });

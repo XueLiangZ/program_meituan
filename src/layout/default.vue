@@ -38,6 +38,7 @@ export default {
     width: 1190px;
     padding:0;
     margin: -40px auto 0;
+    min-height: 500px;
     .m-page {
       outline: 1px solid;
     };

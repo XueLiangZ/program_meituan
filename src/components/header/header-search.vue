@@ -13,12 +13,16 @@
             @blur="handelBlur"
             @input="inputHandel"
           ></el-input>
-          <router-link :to="{ name: 'goods_search', params: { id: searchWords } }">
+          <router-link :to="{ name: 'search', params: { id: searchWords } }">
             <el-button type="primary" icon="el-icon-search"></el-button
           ></router-link>
           <dl class="list-hotposition" v-show="isHotplace">
             <dt>热门搜索</dt>
-            <dd v-for="(item, index) in hotPosition" :key="index" @click="handelClick">
+            <dd
+              v-for="(item, index) in hotPosition"
+              :key="index"
+              @click="handelClick(item)"
+            >
               <router-link to="/">{{ item }}</router-link>
             </dd>
           </dl>
@@ -43,19 +47,18 @@
   </div>
 </template>
 <script>
-// import api from "../../API/api";
-// import { async } from "q";
+
 
 export default {
-  data () {
+  data() {
     return {
-      searchWords: '',
+      searchWords: "",
       isFocus: false,
       hotPosition: [],
-      searchList: null
+      searchList: null,
     };
   },
-  created () {
+  created() {
     this.$api.getHotSearch().then((resp) => {
       this.hotPosition = resp.data.data;
     });
@@ -66,19 +69,19 @@ export default {
     },
     isSearch: function () {
       return this.isFocus && this.searchWords;
-    }
+    },
   },
   methods: {
-    handelFocus () {
+    handelFocus() {
       this.isFocus = true;
     },
-    handelBlur () {
+    handelBlur() {
       // 防止失焦点后无法点击跳转,添加延迟
       setTimeout(() => {
         this.isFocus = false;
       }, 200);
     },
-    inputHandel () {
+    inputHandel() {
       this.$api.getSearchList().then((resp) => {
         // console.log(resp.data.data.list)
         var list = resp.data.data.list.filter((item) => {
@@ -87,10 +90,10 @@ export default {
         this.searchList = list;
       });
     },
-    handelClick () {
-
-    }
-  }
+    handelClick(item) {
+      this.searchWords = item;
+    },
+  },
 };
 </script>
 

@@ -7,6 +7,11 @@ padding:0;
 table{   
 border-collapse:collapse;   
 border-spacing:0;   
+}
+hr{
+    height: 1px;
+    background-color: #eee;
+    border: none;
 }   
 fieldset,img {   
 border:0;   
@@ -47,7 +52,7 @@ li{
 input,img{  
     border: none;  
 }
-/* .clearfix::after{
+/* .clearfix:after{
    display: block;
    content:'';
    clear: both;
