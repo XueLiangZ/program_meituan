@@ -3,7 +3,7 @@
     <div class="sort">
       <div class="label">
         <label>分类</label>
-        <router-link class="all" to="">全部</router-link>
+        <router-link class="all" to>全部</router-link>
       </div>
       <div class="f-content">
         <template v-for="(item, index) in data">
@@ -14,7 +14,7 @@
     <div class="area">
       <div class="label">
         <label>区域</label>
-        <router-link class="all" to="">全部</router-link>
+        <router-link class="all" to>全部</router-link>
       </div>
       <div class="f-content">
         <template v-for="(item, index) in data">
@@ -43,7 +43,7 @@ export default {
           name: "外卖",
           items: {
             title: "外卖",
-            items: ["美团外卖"],
+            items: [" 外卖"],
           },
         },
       ],
@@ -92,7 +92,6 @@ export default {
       flex: 8;
       display: flex;
       flex-wrap: wrap;
-   
     }
   }
 }

@@ -2,7 +2,7 @@
   <dl class="nav">
     <dd class="has-list">
       <router-link :to="{ name: 'login' }">
-        我的美团
+        我的账户
       </router-link>
       <list-box class="list-box" :datalist="ListData" />
     </dd>
@@ -17,7 +17,7 @@
     </dd>
 
     <dd class="has-list">
-      美团规则
+       规则
       <list-box class="list-box" :datalist="ListRules" />
     </dd>
     <dd class="has-list">

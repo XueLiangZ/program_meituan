@@ -88,7 +88,7 @@ export default {
         z-index: 99;
         min-width: 100%;
         min-height: 50px;
-        top: calc(100% + 5pxb);
+        top: calc(100% + 5px);
         left: 0px;
         padding-bottom: 15px;
         border: 1px solid #ccc;

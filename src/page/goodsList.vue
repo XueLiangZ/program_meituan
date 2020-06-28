@@ -70,14 +70,14 @@ export default {
       ],
       sortList: [
         {
-          image: "http://p0.meituan.net/xxxxc",
+          image: "http://p0.meituan.net/ xc",
           title: "火鸡老店",
           type: "food",
           score: 4.1,
           commentNum: 0,
           comment: [
             {
-              username: "xxxx",
+              username: " x",
               evalaute: "好吃",
             },
           ],

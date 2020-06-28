@@ -9,17 +9,17 @@
         <el-row class="banner-header">
           <el-col>
             <div class="header-link">
-              <router-link to="/">美团外卖</router-link>
+              <router-link to="/"> 外卖</router-link>
 
               <router-link class="red" to="/">猫眼电影</router-link>
 
-              <router-link class="blue" to="/">美团酒店</router-link>
+              <router-link class="blue" to="/"> 酒店</router-link>
 
               <router-link to="/">民宿／公寓</router-link>
 
               <router-link class="orange" to="/">商家入驻</router-link>
 
-              <router-link class="green" to="/">美团公益</router-link>
+              <router-link class="green" to="/"> 公益</router-link>
             </div>
           </el-col>
         </el-row>
@@ -69,7 +69,7 @@
           <el-col :span="5">
             <div class="m-downapp">
               <div class="pict"></div>
-              <p class="last-p2">美团APP手机版</p>
+              <p class="last-p2"> APP手机版</p>
               <p class="last-p1"><span class="red">1元起</span>吃喝玩乐</p>
             </div>
           </el-col>
